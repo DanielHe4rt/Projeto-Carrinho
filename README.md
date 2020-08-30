@@ -1,7 +1,6 @@
 <h1 align="center"> Projeto-Carrinho </h1>
 ## Descrição do Projeto
 <p align="justify"> Projeto desenvolvido para a matéria de Projeto Integrador II </p>
-<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 
 ### Tarefas feitas e Tarefas que ainda precisam ser concluidas.
 
