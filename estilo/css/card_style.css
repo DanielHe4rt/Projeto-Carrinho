@@ -1,7 +1,10 @@
 
 .card {
   display: inline-block;
+  margin:  22px;
 }
  .list-group {
    height: 350px;
  }
+
+  

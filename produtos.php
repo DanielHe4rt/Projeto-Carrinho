@@ -12,6 +12,7 @@ $localDate = date('d/m/y');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="../Projeto Integrador II/estilo/css/products_style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/icon.jpg">
   <title>Tela de Inicio</title>
 </head>
 
@@ -25,7 +26,7 @@ $localDate = date('d/m/y');
           <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
         </svg>
       </a>
-      <a class="py-2" href="produtos_categoria.html" title="Produtos" alt=""> Produtos
+      <a class="py-2" href="#category" title="Produtos" alt=""> Produtos
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M14 5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5zM1 4v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4H1z" />
           <path d="M8 1.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z" />
@@ -55,22 +56,19 @@ $localDate = date('d/m/y');
     </div>
 
   </nav>
-  <div class="jumbotron" style="background-image: url(img/mercado.jpg); background-size: 100%;">
+  <div class="jumbotron" style="background-image: url(img/header.png); background-size: 100%;">
     <div class="position-relative overflow-hidden p-5 p-md-5 m-md-5 text-center">
-
-      <h1 class="display-4 font-weight-normal"><u>Bem Vindo!</u></h1>
-      <h5> Data: <?= $localDate; ?> </h5>
+      <h1 class="text-dark  display-4 font-weight-normal"></u></h1>
       <p class="lead font-weight-normal"></p>
     </div>
   </div>
-  
   <nav class="navbar navbar-light ">
-    <a class="navbar-brand">Categorias
+    <a class="navbar-brand" id="category">Categorias
       <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
       </svg>
     </a>
-    <br>
+
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Faça sua Busca" aria-label="Pesquisar">
       <a class="btn btn-outline-secondary" href="#">Pesquisar</a>
@@ -80,30 +78,14 @@ $localDate = date('d/m/y');
   </nav>
   <br>
   <br>
-
   <?php
-  include_once ('produtos_categoria.html');
+  include_once('produtos_categoria.html');
   ?>
-  
-  <footer class="container py-5">
+
+  <footer class="container py-4">
     <div class="row">
       <div class="col-12 col-md">
-        <small class="d-block mb-3 text-muted">&copy; Rudi Júnior - GTI2020</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Contatos</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">E-mail</a></li>
-          <li><a class="text-muted" href="#">Telefone</a></li>
-          <li><a class="text-muted" href="#">Redes Sociais</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Sobre</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Integrantes</a></li>
-          <li><a class="text-muted" href="#">O Projeto</a></li>
-        </ul>
+        <small class="d-block mb-3 text-muted">&copy; Projeto Integrador II - GTI2020</small>
       </div>
     </div>
   </footer>

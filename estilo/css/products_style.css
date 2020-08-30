@@ -1,7 +1,7 @@
 .container {
     max-width: 960px;
   }
-  /* Começo do menu */
+  /* Menu*/
   .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -15,14 +15,23 @@
     color: #fff;
     text-decoration: none;
   }
-  /* Fim do menu */
+ /* Fim */
 
 
-
-  @media (min-width: 768px) {
-    .flex-md-equal > * {
-      -ms-flex: 1;
-      flex: 1;
-    }
+  /*  Search box */
+  .form-control {
+    border-color: grey !important;
+    box-shadow: none !important;
   }
+/* Fim */
+
+.col-12 {
+  text-align: center;
+}
+
+.jumbotron {
+ height: 500px;
+ background-repeat: no-repeat;
+}
+
   .overflow-hidden { overflow: hidden; }
