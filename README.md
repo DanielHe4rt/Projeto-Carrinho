@@ -11,6 +11,5 @@
 - [ ] Entregar o Projeto
 
 ### Como está o Projeto?
-1. Projeto:
 > Status do Projeto: Em desenvolvimento :warning:
 
