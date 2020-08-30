@@ -1,5 +1,6 @@
 <h1 align="center"> Projeto-Carrinho </h1>
-## Descrição do Projeto
+
+### Descrição.
 <p align="justify"> Projeto desenvolvido para a matéria de Projeto Integrador II </p>
 
 ### Tarefas feitas e Tarefas que ainda precisam ser concluidas.
