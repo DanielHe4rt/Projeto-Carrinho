@@ -28,7 +28,7 @@
         </div>
         <button class="btn btn-lg btn-info btn-block" type="submit">Login</button>
         <br>
-        <button type="button" class="btn btn-outline-secondary btn-sm">Não tem conta? Faça seu cadastro aqui</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm" ><a id="register" href="cadastro.php">Não tem conta? Faça seu cadastro aqui</a></button>
         <p class="mt-5 mb-3 text-muted">&copy; Projeto Integrador II - GTI2020</p>
     </form>
 </body>

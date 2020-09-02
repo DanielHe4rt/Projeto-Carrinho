@@ -47,12 +47,7 @@ body {
     font-size: 6em;
 }
 
-.email {
-    
-    box-shadow: none !important;
-}
-
-.password {
-    
-    box-shadow: none !important;
+#register {
+  text-decoration: none;
+  color: black;
 }
