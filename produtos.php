@@ -12,8 +12,8 @@ $localDate = date('d/m/y');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="../Projeto Integrador II/estilo/css/products_style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/icon.jpg">
-  <title>Tela de Inicio</title>
+  <link rel="shortcut icon" href="img/home.ico">
+  <title>Inicial</title>
 </head>
 
 <body>

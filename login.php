@@ -12,11 +12,11 @@
 
 <body class="text-center">
     <form class="form-signin">
-        <a id="icon_login"><img class="mb-4" title="Faça seu login" src="" alt="" width="72" height="72"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <a id="icon_login"><img class="mb-4" title="Faça seu login" alt=""><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
             </svg>
         </a>
-        <h1  class="h3 mb-3 font-weight-normal ">Faça login</h1>
+        <h1  class="h3 mb-3 font-weight-normal ">Bem vindo</h1>
         <label for="inputEmail" class="sr-only">Endereço de email</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Insira seu Email" required autofocus>
         <label for="inputPassword" class="sr-only">Senha</label>
