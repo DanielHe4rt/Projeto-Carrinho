@@ -1,9 +1,16 @@
 .card {
   display: inline-block;
-  margin: 22px;
-  left: 50px;
-  margin-right: 70px;
+  min-width: 24%;
+  margin-left: 10px;
+  top: 100px;
 }
- .list-group {
-   height: 350px;
- }
+
+.list-group {
+  height: 340px; 
+ 
+}
+
+.card-body {
+  min-height: 115px;
+
+}

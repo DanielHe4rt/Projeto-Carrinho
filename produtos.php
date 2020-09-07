@@ -45,7 +45,7 @@ $localDate = date('d/m/y');
         <a class="dropdown-item" href="price_list.php" title="Preços" alt="">Preços</a>
         <a class="dropdown-item" href="#">2</a>
         <a class="dropdown-item" href="#">3</a>
-      </div>
+      </div> 
       <a class="py-2" href="login.php" title="Faça seu Login" alt=""> Login
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
@@ -74,10 +74,7 @@ $localDate = date('d/m/y');
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
     </form>
   </nav>
- <br>
- <br>
- <br>
- <br>
+ 
   <?php
   include_once('produtos_categoria.html');
   ?>
@@ -85,7 +82,7 @@ $localDate = date('d/m/y');
   <footer class="container py-4">
     <div class="row">
       <div class="col-12 col-md">
-        <small class="d-block mb-3 text-muted">&copy; Projeto Integrador II - GTI2020</small>
+        <small class=" mb-3 text-muted">&copy; Projeto Integrador II - GTI2020</small>
       </div>
     </div>
   </footer>
