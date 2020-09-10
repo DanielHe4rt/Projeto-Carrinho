@@ -3,7 +3,7 @@
 define ('DB_HOST','localhost');
 define ('DB_USUARIO','root');
 define ('DB_SENHA','');
-define ('DB_DATABASE','');
+define ('DB_DATABASE','carrinho');
 define ('DB_CHARSET','utf8');
 
 // Conexão BD
