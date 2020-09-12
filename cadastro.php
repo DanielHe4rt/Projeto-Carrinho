@@ -23,18 +23,19 @@
     </div>
 
     <div class="col-md-8 order-md-1">
-      <form id="register" class="needs-validation" novalidate>
+      <form id="register" class="needs-validation" method="POST" action="register.php" novalidate>
+      <input type="hidden" name="serionaozoameusistema" value="register-auth">
         <div class="row">
           <div class="col-md-6 mb-3">
             <label for="primeiroNome">Nome</label>
-            <input type="text" class="form-control" id="primeiroNome" placeholder="Insira seu Nome" value="" required>
+            <input type="text" class="form-control" name="first_name" id="primeiroNome" placeholder="Insira seu Nome" value="" required>
             <div class="invalid-feedback">
               É obrigatório inserir um nome válido.
             </div>
           </div>
           <div class="col-md-6 mb-3">
             <label for="sobrenome">Sobrenome</label>
-            <input type="text" class="form-control" id="sobrenome" placeholder="Insira seu Sobrenome" value="" required>
+            <input type="text" class="form-control" name="last_name" id="sobrenome" placeholder="Insira seu Sobrenome" value="" required>
             <div class="invalid-feedback">
               É obrigatório inserir um sobrenome válido.
             </div>
@@ -43,7 +44,7 @@
 
         <div class="mb-3">
           <label for="email">Email </label>
-          <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
+          <input type="email" name="email" class="form-control" id="email" placeholder="exemplo@email.com">
           <div class="invalid-feedback">
             Por favor, insira um endereço de e-mail válido.
           </div>
@@ -51,7 +52,7 @@
 
         <div class="form-group">
           <label for="InputPassword1">Senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite uma Senha">
+          <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Digite uma Senha">
           <div class="invalid-feedback">
             Por favor, insira uma Senha.
           </div>
@@ -59,7 +60,7 @@
 
         <div class="form-group">
           <label for="ConfirmPassword1">Confirmação da Senha</label>
-          <input type="password" class="form-control" id="ConfirmPassword1" placeholder="Digite sua Senha novamente">
+          <input type="password" name="confirm_password" class="form-control" id="ConfirmPassword1" placeholder="Digite sua Senha novamente">
           <div class="invalid-feedback">
             As senhas não conferem.
           </div>

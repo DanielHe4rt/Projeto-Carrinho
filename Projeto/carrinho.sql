@@ -1,5 +1,3 @@
-create database carrinho;
-use carrinho;
 
 create table cidade (   
 	cidade_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
